@@ -22,39 +22,39 @@ void main(){
 	
 	//Variable declarations
 	
-	FILE* fpFile1 = NULL;								//File pointer for "Assign9.txt" file
-	FILE* fpFile2 = NULL;								//File pointer for "numfile.txt" file
+	FILE* fpFile1 = NULL;							//File pointer for "Assign9.txt" file
+	FILE* fpFile2 = NULL;							//File pointer for "numfile.txt" file
 	char *token, *temp;
 	char read[100];
 	double num1;
 
-	fpFile2 = fopen("numfile.txt", "w");				//Open "numfile.txt" file in write mode and set to fpFile2 pointer
-	if (fpFile2 == NULL)								//File error checking
+	fpFile2 = fopen("numfile.txt", "w");					//Open "numfile.txt" file in write mode and set to fpFile2 pointer
+	if (fpFile2 == NULL)							//File error checking
 		printf("File Error");
 
-	fpFile1 = fopen("Assign9.txt", "r");				//Open "Assign9.txt" file in read mode and set to fpFile1 pointer
-	if (fpFile1 == NULL)								//File error checking
+	fpFile1 = fopen("Assign9.txt", "r");					//Open "Assign9.txt" file in read mode and set to fpFile1 pointer
+	if (fpFile1 == NULL)							//File error checking
 		printf("File Error");
 	else
 	{
-		while (fgets(read, 100, fpFile1) != NULL)		//This function reads the file and stores the strings in read array	
+		while (fgets(read, 100, fpFile1) != NULL)			//This function reads the file and stores the strings in read array	
 		{
-			puts(read);									//Print read array strings to console window
-			token = strtok(read, " ");					//Set token to value of first char in read array
-			while (token != NULL)						//Loop strtok() function until token equals NULL to parse whole array
+			puts(read);						//Print read array strings to console window
+			token = strtok(read, " ");				//Set token to value of first char in read array
+			while (token != NULL)					//Loop strtok() function until token equals NULL to parse whole array
 			{
-				if (isdigit(token[0]))					//Determine if token is a digit
+				if (isdigit(token[0]))				//Determine if token is a digit
 				{
 					num1 = strtod(token, &temp);		//Convert char to decimal and store in num1 variable
 					fprintf(fpFile2, "%lf \t", num1);	//Write num1 value and a TAB to "numfile.txt"
 				}
-				token = strtok(NULL, " ");				//Continue parsing the array
+				token = strtok(NULL, " ");			//Continue parsing the array
 			}
-			fprintf(fpFile2, "\n");						//Write a new line to file for data formatting
+			fprintf(fpFile2, "\n");					//Write a new line to file for data formatting
 		}
 	}
-	fclose(fpFile1);									//Close "Assign9.txt" file
-	fclose(fpFile2);									//Close "numfile.txt" file
-	system("pause");									//System pause to read console window
+	fclose(fpFile1);							//Close "Assign9.txt" file
+	fclose(fpFile2);							//Close "numfile.txt" file
+	system("pause");							//System pause to read console window
 }
  
