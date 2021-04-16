@@ -1,5 +1,5 @@
 # =-=-=-=-=-=-=-=-=-=-=-=-=
-# Super Fun Adventure Game
+# Fun Text Adventure Game
 # Corey Biluk        
 # January 29, 2021                
 # =-=-=-=-=-=-=-=-=-=-=-=-=
