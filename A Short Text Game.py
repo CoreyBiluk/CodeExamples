@@ -1,7 +1,6 @@
 # =-=-=-=-=-=-=-=-=-=-=-=-=
-# EETG3024 Lab 6
 # Super Fun Adventure Game
-# Corey Biluk | W0425561          
+# Corey Biluk        
 # January 29, 2021                
 # =-=-=-=-=-=-=-=-=-=-=-=-=
 
