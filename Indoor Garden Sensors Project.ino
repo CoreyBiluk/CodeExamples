@@ -1,8 +1,7 @@
-/********************************************  
- *  EETG3011 Embedded Controllers           *
- *  Final Project - Automated Indoor Garden *
- *  Corey Biluk - W0425561                  *
- ********************************************/
+/************************************  
+ *  Automated Indoor Garden Sensors *
+ *  Corey Biluk                     *
+ ************************************/
 
 /********************************
  * DHT11 Temp & Humidity Sensor *
