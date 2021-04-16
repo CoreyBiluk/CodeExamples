@@ -1,9 +1,7 @@
-/**********************************  
- *  EETG3011 Embedded Controllers *
- *  Lab 16 - Simple Digital Music *
- *  Corey Biluk - W0425561        *
- *  December 8, 2020              *
- **********************************/
+/*********************
+ *  Corey Biluk      *
+ *  December 8, 2020 *
+ *********************/
 
 /*****************************************************************************
  * This program is a juke box that plays one of five melodies based on user  *
