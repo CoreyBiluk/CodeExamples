@@ -1,6 +1,4 @@
-//EETG 1008 Computer Programming I
-//Assignment 9 - FileIO
-//Corey Biluk W0425561
+//Corey Biluk
 //April 10, 2020	
 
 #include "stdafx.h"
