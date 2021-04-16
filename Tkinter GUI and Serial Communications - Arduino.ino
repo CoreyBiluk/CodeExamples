@@ -1,7 +1,4 @@
-/* EETG 3024 Advanced Embedded Systems
-   Instructor: Ricardo Bautista Quintero
-   Corey Biluk | W0425561
-   Midterm Exam | Part 5
+/* Corey Biluk
    March 8, 2021*/
 
 // LED pin variables
