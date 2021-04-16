@@ -1,9 +1,7 @@
-/*********************************
- * EETG3011 Embedded Controllers *
- * Lab 8 - DC Motor Control      *
- * Corey Biluk - W0425561        *
- * December 14, 2020             *
- *********************************/
+/*********************
+ * Corey Biluk       *
+ * December 14, 2020 *
+ ********************/
 
 /****************************************************************************************************
  * This program controls the speed and direction of a small DC motor using an L293d and a joystick. * 
