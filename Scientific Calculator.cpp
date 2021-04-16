@@ -1,6 +1,4 @@
-//EETG 1008 Computer Programming I
-//Project #1 - Scientific Calculator
-//Corey Biluk W0425561
+//Corey Biluk
 //February 27, 2020	
 
 //The program is a limited function scientific calculator.  
